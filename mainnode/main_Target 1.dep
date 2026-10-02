@@ -1,0 +1,8 @@
+Dependencies for Project 'main', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x00000000)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\can.c)(0x6AAE578B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "can.o" --omf_browse "can.crf" --depend "can.d")
+F (.\delay.c)(0x6AAE578B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "delay.o" --omf_browse "delay.crf" --depend "delay.d")
+F (.\ds18b20.c)(0x6AAE578B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "ds18b20.o" --omf_browse "ds18b20.crf" --depend "ds18b20.d")
+F (.\lcd.c)(0x6AAE578B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "lcd.o" --omf_browse "lcd.crf" --depend "lcd.d")
+F (.\main.c)(0x6AAE578B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "main.o" --omf_browse "main.crf" --depend "main.d")
+F (.\pin_connect_block.c)(0x6AAE578B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "pin_connect_block.o" --omf_browse "pin_connect_block.crf" --depend "pin_connect_block.d")
