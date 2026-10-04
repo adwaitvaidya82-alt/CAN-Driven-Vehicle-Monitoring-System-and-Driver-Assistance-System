@@ -57,19 +57,12 @@ The fuel sensor produces an analog voltage. The LPC2129's ADC converts this volt
 
 For an N-bit ADC, the ideal conversion relationship is:
 
-ADC=
-V
-ref
-	
-
-V
-in
-	
-
-	
-
-(2
-N
-−1)
+ADC= (Vin/Vref) *(2^N−1)
 
 The actual ADC resolution and reference voltage must match the configuration used in your program. The ADC reading is then mapped to fuel percentage using calibration
+
+External interrupts
+
+External interrupts allow the microcontroller to respond to switch events without relying only on continuous polling.
+
+In this project, the mode selection switch and left/right indicator switches are interfaced using external interrupts, as specified in the project document.
