@@ -50,3 +50,26 @@ Forward Mode: It receives left/right indicator commands and blinks the correspon
 Reverse Mode: Normal indicator operation is switched off, and the HC-SR05 ultrasonic sensor is enabled to detect obstacles behind the vehicle.
 
 The sensor measures obstacle distance, and the program compares it with predefined distance limits to determine the alert status.
+
+ADC — Analog-to-Digital Converter
+
+The fuel sensor produces an analog voltage. The LPC2129's ADC converts this voltage into a digital reading that the program can process.
+
+For an N-bit ADC, the ideal conversion relationship is:
+
+ADC=
+V
+ref
+	
+
+V
+in
+	
+
+	
+
+(2
+N
+−1)
+
+The actual ADC resolution and reference voltage must match the configuration used in your program. The ADC reading is then mapped to fuel percentage using calibration
